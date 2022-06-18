@@ -12,8 +12,6 @@ def menu():
             break
     if option == 1:
         reserve()
-    elif option ==2:
-        checker()
     else:
         print('\tThat is not an option.\n')
 
@@ -44,7 +42,7 @@ def reserve():
         print('\n\tUnfortunately this parking space is not available.')
 
     #Verification. delete this after         
-    print('\n\n\nBookings:' + str(parking_spaces))
+    #print('\n\n\nBookings:' + str(parking_spaces))
 
   
 # Generates dictionary {1: [], 2: [], 3:[] . . . }
